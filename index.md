@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+# Getting Started
 
-You can use the [editor on GitHub](https://github.com/marcindrabik/marcindrabik.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to your new foam workspace, let's get you started.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> if you are already familiar with Foam and don't need help, just remove the `docs` folder for a clean repo.
 
-### Markdown
+Let's go through this to set up your repo:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [ ] if you are new with VS Code, see how to [[get-started-with-vscode]] and how to [[use-keyboard-shortcuts-for-editing]]
 
-```markdown
-Syntax highlighted code block
+- [ ] you can navigate the links between your notes by `cmd+click` (or `ctrl+click` on Windows) on a wikilink. You can go back with `ctrl+-`. Here, go to your [[inbox]]
 
-# Header 1
-## Header 2
-### Header 3
+- [ ] to see how your notes are connected, execute the `Foam: Show Graph` command. See [[graph-visualization]].
 
-- Bulleted
-- List
+- [ ] #tags can be used to further organize your content. Look at the `Tag Explorer` view on the left panel to find and navigate the tags in your knowledge base. See [[tags-and-tag-explorer]].
 
-1. Numbered
-2. List
+- [ ] Foam supports [[spell-checking]].
 
-**Bold** and _Italic_ and `Code` text
+- [ ] You can also paste images in your Foam, just press `cmd+alt+v` to create the image file and link to it from your note. See [[paste-images-from-clipboard]].
 
-[Link](url) and ![Image](src)
-```
+- [ ] You can use Foam for your daily notes, or journaling. Execute now the `Foam: Open Daily Note` command to create a new file in your `journal` folder. See [[daily-notes]].
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- [ ] Want to see how to manage your tasks? Go to the [[todo]] note
 
-### Jekyll Themes
+- [ ] The section at the end of this file contains wikilink definitions, which enable navigation of your notes from GitHub's web UI, and in general to make `[[wikilinks]]` understood by any Markdown parser. See [[link-reference-definitions]].
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marcindrabik/marcindrabik.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- [ ] To explore all the Foam settings, press `cmd+,`, then `Extensions > Foam`
 
-### Support or Contact
+- [ ] Living within VS Code, Foam can be customized in many ways! Look at the [Foam Recipes](https://foambubble.github.io/foam/recipes/recipes) for ideas!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [ ] Join the [Foam community on Discord](https://foambubble.github.io/join-discord/e), introduce yourself and leave a message on how you found Foam and how the onboarding went :) We are always keen to do better
+
+- [ ] Take the [Foam Welcome survey](http://foambubble.github.io/welcome-survey/e)! It helps us better understand your need and how we can make Foam better and better for you :)
+
+## Advanced Features
+
+- [ ] You can create [[note-templates]] for things like book reviews, people, daily notes (coming soon), and more!
+
+## About Foam
+
+Foam doesn't do all this magic on its own, it relies on some amazing extensions. Look at their documentation if you want to fully unlock the possibilities!
+
+Here they are:
+
+- [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [vscode-paste-image](https://github.com/mushanshitiancai/vscode-paste-image)
+- [spellright](https://marketplace.visualstudio.com/items?itemName=ban.spellright)
+
+A special mention goes to [Markdown Links](https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links) and [Markdown Notes](https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes) which have now been replaced by our own implementation but were foundational to Foam's beginnings.
+
